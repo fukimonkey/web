@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(245, 205, 227);
+    font-size: 20px0;
+color: deeppink;
+}
+.wrap{
+    width: 70%;
+    margin:0 auto;
+    padding: 20px;
+
+}
+h2{
+    margin-top: 20px;
+    color: rgb(11, 11, 11);
+}
+p{
+    color: rgb(11, 11, 11);
+}
+.works{
+  background-color: rgb(245, 205, 227);
+  color: beige;
+  margin-top: 20px;  
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-bottom: 15px;
+
+  padding-top: 10px;
+  padding-left: 5px;
+padding-right: 8px;
+padding-bottom: 12px;
+
+border-style: solid;
+border-width: 15px;
+border-color: deeppink;
+}
+.works img{
+    width: 150px;   
+    height:150px;
+}
+.photobox{
+    display: flex;
+}
+
+

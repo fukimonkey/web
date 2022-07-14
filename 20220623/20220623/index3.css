@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+}
+.box1{
+background-color: brown;
+height: 200px;
+}
+.box2{
+background-color: coral;
+height: 200px;
+width: 50%;
+float: left;
+}
+.box3{
+background-color: black;
+height: 200px;
+width:50%;
+float: left;
+}
+.box4{
+background-color: darksalmon;
+height: 200px;
+width: 50%;
+float: left;
+}
