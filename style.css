@@ -1,3 +1,41 @@
 body{
-background-color: cyan; 
+    background-color: rgb(16, 232, 232); 
+    color: rgb(194, 20, 20);
+    font-size: 120%;
 }
+
+a{
+color: rgb(146, 43, 249);    
+text-decoration: none;
+
+}
+
+a:hover{
+    color:plum ;
+    background-color: rgb(109, 109, 255);
+}
+
+ul,li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
