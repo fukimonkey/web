@@ -1,0 +1,127 @@
+
+ul,li{
+list-style:none;    
+}
+a{
+text-decoration: none;    
+color: black;
+}
+a:hover{
+    background: #eee;
+}
+.box2 ul{
+display:flex;    
+}
+.box2 ul a{
+display:block;
+padding:15px ; 
+color:#fff;   
+}
+.box2{
+ background-color: #7cbac1; 
+}
+
+img{
+ max-width: 100%;   
+}
+.tw{
+background-color: #55acee;    
+}
+.fa{
+background-color: #3b5998;    
+}
+.in{
+ background-color: #cf2e92;   
+}
+.sns ul{
+display: flex;    
+}
+.sns a{
+display:block;
+padding:10px5px;
+color:#fff;
+font-size:14px;
+text-align:center;
+text-decoration:none;
+}
+.sns li{
+ width:33.333%;   
+}
+/* 関連記事 */
+.kanren{
+margin-top:40px;
+padding:20px;
+background-color:#f0f0d4;  
+}
+.kanren ul{
+display:flex;
+}
+.kanren li{
+width:25%;
+}
+.kanren a{
+display:block;   
+padding:10px; 
+}
+/* おすすめ記事*/
+.osusume a{
+position: relative;   
+}
+.osusume .text{
+position: absolute;    
+bottom: 0;
+left: 0;
+padding: 5px 10px;
+background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+width: 100%;
+box-sizing: border-box;
+}
+/*　人気の記事 */
+.ninki a{  
+display: flex;
+}
+
+.ninki img {
+width:60px;
+}
+/*記事*/
+.box3 h2{
+border-left: solid 10px #7cbac1;
+padding-left:10px;
+}
+
+.fa-caret-right{
+    margin-right:5px;
+}
+
+
+/*レスポンシブヴェブの設定*/
+@media (max-width:599px) {
+/*ナビゲーション*/  
+.box2 ul a{
+    padding: 6px;
+    font-size: 14px;
+}
+}
+/*768px以上*/
+@media (min-width:768px){
+    .boxA {
+    display: flex;    
+    }    
+    .box3{
+    width: 70%; 
+    }
+    .box4{
+    width: 30%;   
+    }
+  
+}
+/*1040px以上*/
+@media (min-width:1040px){
+.box1, .box2, .boxA, .box5{
+     width: 1000px;
+     margin-left:auto;
+     margin-right:auto;
+}
+}
