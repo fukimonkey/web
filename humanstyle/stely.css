@@ -7,7 +7,7 @@ text-decoration: none;
 color: black;
 }
 a:hover{
-    background: #eee;
+    background: rgb(136, 133, 133);
 }
 .box2 ul{
 display:flex;    
@@ -18,7 +18,7 @@ padding:15px ;
 color:#fff;   
 }
 .box2{
- background-color: #7cbac1; 
+ background-color: #198241; 
 }
 
 img{
@@ -87,7 +87,7 @@ width:60px;
 }
 /*記事*/
 .box3 h2{
-border-left: solid 10px #7cbac1;
+border-left: solid 10px #198241;
 padding-left:10px;
 }
 
